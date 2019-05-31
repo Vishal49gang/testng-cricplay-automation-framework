@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameterization Test Suite]">
+  <test thread-count="5" name="Testing Parameterization(failed)">
+    <parameter name="referralcard" value="refer-to-earn"/>
+    <parameter name="title" value="CricPlay"/>
+    <parameter name="URL" value="https://qa.cricplay.com"/>
+    <classes>
+      <class name="cricplayFramework.PreLoginTests">
+        <methods>
+          <include name="afterTest"/>
+          <include name="assertPrediction"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- cricplayFramework.PreLoginTests -->
+    </classes>
+  </test> <!-- Testing Parameterization(failed) -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->

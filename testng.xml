@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/vishal.gangwar 1/Desktop/java/testng-cricplay-automation-framework/src">
+        <classes>
+            <class name="tests.TestHomePreLogin">
+                <methods>
+                    <include name="homeSectionsTest"/>
+                    <include name="pvtcardTest"/>
+                    <include name="referCard"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
